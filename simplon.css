@@ -6,7 +6,7 @@
 .main
 {
     width: 100%;
-    background:url(cloud.jpg);
+    background:url(new_cloud.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -28,7 +28,7 @@
 
 .logo
 {
-    color: rgb(184, 25, 25);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: arial;
     padding-left: 20px;
@@ -234,7 +234,7 @@ ul li a:hover
 .icons ion-icon
 {
     margin-top: 10px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     padding-left: 14px;
     padding-top: 5px;
