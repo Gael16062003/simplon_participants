@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main
+{
+    width: 100%;
+    background:url(cloud.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon
+{
+    width: 300px;
+    float:left;
+    height: 90px;
+}
+
+.logo
+{
+    color: rgb(184, 25, 25);
+    font-size: 30px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    z-index: 50px;
+    position: fixed;
+}
+
+.icon img
+{
+    max-height: 36px;
+    float: left;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 50px;
+}
+
+/** ==== Menu ==== **/
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 300px;
+
+}
+
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: #ffff;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+ul li a:hover
+{
+    color: rgb(184, 25, 25);
+}
+
+
+#enre
+{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 25, 25);
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+#enre:hover
+{
+    color: rgb(184, 25, 25);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#cons
+{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 25, 25);
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+#cons:hover
+{
+    color: rgb(184, 25, 25);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.form
+{
+    width: 250px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,  rgba(0, 0, 0, 0.5)50%);
+    position: absolute;
+    top: 100px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    visibility: visible;
+}
+
+.form:hover
+{
+    border: #fff 1px solid;
+    box-shadow: 2px 2px 1rem white;
+    z-index: 50px;
+}
+
+.form h2
+{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(184, 25, 25);
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: -8px;
+    padding: 8px;
+}
+
+.form input
+{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(184, 25, 25);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #ffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus
+{
+    outline: none;
+}
+
+::placeholder
+{
+    color: #ffff;
+    font-family: Arial;
+}
+
+#soumettre
+{
+    width: 240px;
+    height: 40px;
+    background: rgb(184, 25, 25);
+    border:none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#soumettre:hover
+{
+    background:#fff;
+    color: black;
+}
+
+.form a
+{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.form a:hover
+{
+    color: rgb(184, 25, 25);
+}
+
+.icons a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon
+{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    margin-left: -50px;
+}
+
+.icons ion-icon #fb
+{
+    color: rgb(8, 58, 150);
+}
+
+.icons ion-icon #ig
+{
+    color: rgb(150, 8, 91);
+}
+
+.icons ion-icon #tw
+{
+    color: rgb(107, 157, 248);
+}
+
+.icons ion-icon #ln
+{
+    color: rgb(8, 58, 150);
+}
+
+.icons ion-icon #gl
+{
+    color: yellow;
+}
+
+
+.form button
+{
+    margin-top: 12px;
+    font-size: 15px;
+    margin-left: 185px;
+    color:#fff;
+    background-color: red;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.form button:hover
+{
+    background-color:#fff;
+    color: red;
+}

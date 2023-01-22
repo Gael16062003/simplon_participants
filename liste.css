@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main
+{
+    width: 100%;
+    background:url(cloud.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon
+{
+    width: 300px;
+    float:left;
+    height: 90px;
+}
+
+.logo
+{
+    color: rgb(184, 25, 25);
+    font-size: 30px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    z-index: 50px;
+    position: fixed;
+}
+
+.icon img
+{
+    max-height: 36px;
+    float: left;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 50px;
+}
+
+/** ==== Menu ==== **/
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 300px;
+
+}
+
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: #ffff;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+ul li a:hover
+{
+    color: rgb(189, 23, 23);
+}
+
+ul li a button
+{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 25, 25);
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+ul li a button:hover
+{
+    color: rgb(184, 25, 25);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+table
+{
+    background:rgba(255, 255, 255, 0.7);
+    width: 1100px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+table thead tr th
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+
+table tbody tr td
+{
+   text-align: center;
+    border-bottom: 1px black solid;
+}
